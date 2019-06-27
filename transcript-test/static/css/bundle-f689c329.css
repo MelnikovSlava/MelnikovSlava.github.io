@@ -1,0 +1,165 @@
+.message-component {
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 20px;
+}
+.message-component--icon {
+  margin-right: 16px;
+}
+.message-component--time {
+  margin: 0;
+  color: lightgray;
+}
+.message-component--text {
+  margin-top: 5px;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.dialogue-component {
+  background-color: white;
+  box-shadow: 0px 3px 7px 0px rgba(0, 0, 0, 0.1);
+  width: 806px;
+  border-radius: 4px;
+  padding: 20px 30px;
+  -ms-flex: 1;
+      flex: 1;
+  margin-top: 50px;
+}
+.dialogue-component--header {
+  border-bottom: 1px solid #ececec;
+  margin-bottom: 30px;
+}
+.dialogue-component--title {
+  margin: 10px 0 15px;
+}
+.dialogue-component--time {
+  color: #b3b3b3;
+  margin: 0 0 10px;
+}
+.dialogue-component--container {
+  overflow-y: auto;
+}
+
+.audio-player-component {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+      align-items: center;
+  -ms-flex-pack: justify;
+      justify-content: space-between;
+  margin: 30px;
+  width: 600px;
+  height: 56px;
+  box-shadow: 0px 3px 7px 0px rgba(0, 0, 0, 0.1);
+  padding-left: 24px;
+  padding-right: 24px;
+  border-radius: 4px;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  background-color: #fff;
+}
+.audio-player-component--slider {
+  width: 300px;
+  -ms-flex-positive: 1;
+      flex-grow: 1;
+  background-color: #D8D8D8;
+  cursor: pointer;
+  position: relative;
+  margin-left: 16px;
+  margin-right: 16px;
+  border-radius: 1.5px;
+  border-top: 16px solid white;
+  border-bottom: 16px solid white;
+  height: 3px;
+}
+.audio-player-component--bar-0 {
+  background-color: #3374EB;
+  border-radius: 1.5px;
+  height: 3px;
+}
+.audio-player-component--handle {
+  height: 12px;
+  width: 12px;
+  border-radius: 50%;
+  background-color: #3374EB;
+  position: absolute;
+  top: -4.5px;
+  pointer-events: all;
+  box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.32);
+}
+.audio-player-component--time {
+  font-size: 14px;
+  color: #8494a6;
+}
+.audio-player-component--btn {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+      align-items: center;
+  -ms-flex-pack: center;
+      justify-content: center;
+  border: none;
+  outline: none;
+  background-color: initial;
+}
+.audio-player-component--icon {
+  cursor: pointer;
+  width: 36px;
+  height: 36px;
+  fill: #3374EB;
+}
+
+.loader-component {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+      flex-direction: column;
+}
+.loader-component--icon {
+  width: 50px;
+  height: 50px;
+}
+
+.app-component {
+  background-color: #F4F5F7;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100vh;
+  -ms-flex-direction: column;
+      flex-direction: column;
+  -ms-flex-align: center;
+      align-items: center;
+}
+.app-component--loader-cont {
+  display: -ms-flexbox;
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+  -ms-flex-align: center;
+      align-items: center;
+  -ms-flex-pack: center;
+      justify-content: center;
+}
+.app-component--loader {
+  width: 70px;
+  height: 70px;
+}
+.app-component--loader path {
+  fill: gray;
+}
+
+body {
+  margin: 0;
+  font-family: "Arial", "Segoe UI", "Roboto", sans-serif;
+  font-size: 14px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+/*# sourceMappingURL=bundle-f689c329.css.map*/
